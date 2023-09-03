@@ -1,10 +1,160 @@
-@media only screen and(max-width: 1500px) {
+@media (min-width: 680px) {
   body {
-    font-size: 15px;
+    font-size: 4px;
+  }
+  .container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #form-div {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+  .card {
+    width: 80%;
+  }
+  #form input,
+  button,
+  label,
+  p {
+    width: 80%;
+    align-self: center;
+    width: 80%;
+  }
+  #image-form {
+    width: 100%;
+    height: 185vh;
+    background-image: url("/assets/images/lainding-page-img.jpg");
   }
 }
-@media only screen and (min-width: 1900px) {
+@media (min-width: 940px) {
   body {
-    font-size: 20px;
+    font-size: 5px;
+  }
+  .container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #form-div {
+    width: 100%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+
+  #image-form {
+    width: 100%;
+    height: 185vh;
+    background-image: url("/assets/images/lainding-page-img.jpg");
+  }
+
+  .card {
+    width: 80%;
+  }
+  #form input,
+  button,
+  label,
+  p {
+    width: 80%;
+    align-self: center;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1080px) {
+  body {
+    font-size: 7px;
+  }
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #form-div {
+    width: 100%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+
+  #form input,
+  button,
+  label,
+  p {
+    width: 80%;
+    align-self: center;
+  }
+  #image-form {
+    width: 100%;
+    height: 185vh;
+    background-image: url("/assets/images/lainding-page-img.jpg");
+  }
+  .card {
+    width: 80%;
+    align-self: center;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 6px;
+  }
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+  }
+  #form-div {
+    width: 30%;
+    height: 90%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+  }
+  .card {
+    width: 45%;
+  }
+  #form input,
+  button {
+    width: 80%;
+    align-self: center;
+    width: 100%;
+  }
+  #image-form {
+    width: 100%;
+    height: 95vh;
+    background-image: url("/assets/images/lainding-page-img.jpg");
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    font-size: 8px;
+  }
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1600px;
+  }
+  #form-div {
+    width: 30%;
+    height: 90%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+  }
+  #image-form {
+    width: 100%;
+    height: 95vh;
+    background-image: url("/assets/images/lainding-page-img.jpg");
+  }
+  .card {
+    width: 45%;
+  }
+
+  #form input,
+  button {
+    width: 80%;
+    align-self: center;
+    width: 100%;
   }
 }
