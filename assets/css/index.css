@@ -156,7 +156,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+
   align-self: center;
   flex-wrap: wrap;
 }
@@ -170,6 +170,7 @@ body {
   padding: 2em;
   border-radius: 10px;
   height: 20em;
+  box-shadow: #8d8d8d 2px 2px 10px;
 }
 .card p {
   text-align: initial;
