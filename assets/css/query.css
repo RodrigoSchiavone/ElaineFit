@@ -2,6 +2,11 @@
   body {
     font-size: 5px;
   }
+
+  .exlude-small-screen{
+    display: none;
+  }
+
   .container {
     width: 100%;
     flex-direction: column;
@@ -74,6 +79,12 @@
     height: 30vh;
   }
   
+}
+
+@media(min-width:400px){
+  .exlude-small-screen{
+    display:unset;
+  }
 }
 
 @media (min-width: 680px) {
