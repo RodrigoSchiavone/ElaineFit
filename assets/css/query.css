@@ -65,17 +65,10 @@
   footer {
     height: 90vh;
   }
-}
 
-@media (min-width: 200px) and (orientation: landscape) {
-  .exlude-small-screen {
-    display: unset;
-  }
-  #form-div {
-    height: 100%;
-  }
-  footer {
-    height: 50vh;
+  #image-form {
+    width: 100%;
+    height: 250vh;
   }
 }
 
@@ -102,9 +95,6 @@
   body {
     font-size: 8px;
   }
-  .exlude-small-screen {
-    display: unset;
-  }
 }
 
 @media (min-width: 790px) {
@@ -112,6 +102,10 @@
     background-image: url("/assets/images/lainding-page-img-full.jpg");
 
     background-position: top;
+  }
+
+  .exlude-small-screen {
+    display: unset;
   }
 }
 
