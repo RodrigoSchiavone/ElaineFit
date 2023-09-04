@@ -6,6 +6,10 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #container {
   display: flex;
   align-items: center;
