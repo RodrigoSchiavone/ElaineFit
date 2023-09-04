@@ -89,7 +89,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 70vh;
+  height: 65vh;
 }
 
 #main-text h1 {
